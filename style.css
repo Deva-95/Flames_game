@@ -1,0 +1,32 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:italic;
+    font-variant: small-caps;
+    color:blueviolet;
+ 
+}
+p{
+    color: crimson;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size: 140%;
+}
+body{
+ text-align: center;   
+}
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+}
+footer{
+    color: antiquewhite;
+    clear: both;
+    text-align:center;
+    font-size: 200%;
+}
+p {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
