@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C \"E:/project/Main/.claude/worktrees/blissful-wescoff\" log --oneline -10)",
+      "Bash(node --version)",
+      "Bash(npm --version)",
+      "Bash(rm -f index.html style.css names.txt)",
+      "Bash(mkdir -p public)",
+      "Bash(mv bg.jpg public/)",
+      "Bash(npm create vite@latest . -- --template react)",
+      "Bash(npx --yes create-vite . --template react --force)",
+      "Bash(npm install)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(ls \"E:/project/Main/.claude/worktrees/blissful-wescoff/node_modules/.bin/vite\"*)"
+    ]
+  }
+}

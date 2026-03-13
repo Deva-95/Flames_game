@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:wght@300;400;600;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+  background: #0f0c29;
+}
+
+.glow-text {
+  text-shadow: 0 0 20px currentColor, 0 0 40px currentColor;
+}
+
+.glass {
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
